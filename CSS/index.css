@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    min-height: 100vh;
+}
+
+footer{
+    margin-top: auto;
+    background-color: #c4c4c4;
+    padding: 10px;
+
+}
