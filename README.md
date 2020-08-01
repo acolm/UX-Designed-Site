@@ -12,7 +12,7 @@ Login Page - Momo Sun
 
 Signup Page - Momo Sun
 
-Signup Information - Momo Sun/ Hussain
+Signup Information - Aaron Colmenares
 
 About - Momo Sun
 
