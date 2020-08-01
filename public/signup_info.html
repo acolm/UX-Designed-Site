@@ -12,39 +12,46 @@
     
     </head>
   <body>
-    <header>
-      <div class="top">
-        <h2>temp Page</h2>
-      </div>
+    <header class="top">
+      <img src="../SFSU-Folio.png" />
     </header>
-    <div class="form-center col-md-4">
+    <div class="form-center col-md-4 ">
       <form class="main-form needs-validation" novalidate="" action="check.html">
         <div class="row">
           <div class="col-md-6 mb-3">
-            <label for="picture">
+            <label>
               Upload Picture
               <span class="text-muted">(Optional)</span>
             </label>
           </div>
           <div class="col-md-3 mb-3">
-            <input type="file"/>
+            <label for="picture" class="custom-file-upload">
+              <i class="fa fa-cloud-upload"></i>
+            </label>
+            <input type="file" id="picture"/>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6 mb-3">
-            <label for="resume">Resume</label>
+            <label>Resume</label>
           </div>
           <div class="col-md-3 mb-3">
-            <input required type="file" class="form-check-input"/>
+            <label for="resume" class="custom-file-upload">
+              <i class="fa fa-cloud-upload"></i>
+            </label>
+            <input required type="file" class="form-check-input" id="resume"/>
             <div class="invalid-feedback">Please add a resume file</div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6 mb-3">
-            <lable for="letter">Cover Letter</lable>
+            <lable>Cover Letter</lable>
           </div>
           <div class="col-md-3 mb-3">
-            <input required type="file" class="form-check-input"/>
+            <label for="letter" class="custom-file-upload">
+              <i class="fa fa-cloud-upload"></i>
+            </label>
+            <input required type="file" class="form-check-input" id="letter"/>
             <div class="invalid-feedback">Please a cover letter</div>
           </div>
         </div>

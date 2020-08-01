@@ -23,8 +23,19 @@ footer{
    place-self: center;
 }
 .top{
-    width:400px;
+    width: 400px;
     margin:auto;
     margin-bottom: 20px;
     text-align: center;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
 }
