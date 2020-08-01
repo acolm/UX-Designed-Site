@@ -3,17 +3,18 @@ body{
     flex-direction: column;
     min-width: 400px;
     min-height: 100vh;
+    font-size: large;
 }
 
 footer{
     margin-top: auto;
     background-color: #c4c4c4;
     padding: 10px;
-
 }
 
 .main-form{
     width: 500px;
+    min-width: 400px;
     margin: auto;
     border-color: none;
     padding: 25px;
@@ -27,7 +28,7 @@ footer{
     margin-bottom: 30px;
 }
 .top{
-    width:500px;
+    width:400px;
     margin:auto;
     margin-bottom: 20px;
     text-align: center;

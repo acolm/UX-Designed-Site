@@ -17,32 +17,62 @@
         <h2>temp Page</h2>
       </div>
     </header>
-    <form class="main-form needs-validation" novalidate="" action="check.html">
-      <div class="mb-3">
-        <label for="classes">SFSU Courses</label>
-        <input class="form-control" required type="text" maxlength="40" placeholder="e.g. ACCT 301" name="classes"/>
-        <div class="invalid-feedback">Please enter some courses you took</div>
-      </div>
-      <div class="mb-3">
-        <label for="skills">Skills</label>
-        <input class="form-control" required type="text" maxlength="40" placeholder="skills" name="skills"/>
-        <div class="invalid-feedback">Please enter some attributes</div>
-      </div>
-      <hr class="mb-4" />
-      <div class="mb-3">
-        <div class="form-check">
-          <input required id ="tos" type="checkbox" class="form-check-input" />
-          <label for="tos" class="form-check-label">
-            <a href="">Accept Terms & Conditions</a>
-          </label>
-          <div class="invalid-feedback">Please accept the terms and conditions</div>
+    <div class="containter">
+      <form class="main-form needs-validation" novalidate="" action="check.html">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="picture">
+              Upload Picture
+              <span class="text-muted">(Optional)</span>
+            </label>
+          </div>
+          <div class="col-md-3 mb-3">
+            <input type="file">
+          </div>
         </div>
-      </div>
-      <hr class="mb-4" />
-      <div>
-        <input type="submit" class="btn btn-primary btn-lg btn-block" >
-      </div>
-    </form>
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <label for="resume">Resume</label>
+          </div>
+          <div class="col-md-3 mb-3">
+            <input type="file">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <lable for="letter">Cover Letter</lable>
+          </div>
+          <div class="col-md-3 mb-3">
+            <input type="file">
+          </div>
+        </div>
+        <hr class="mb-4" />
+        <div class="mb-3">
+          <label for="classes">SFSU Courses</label>
+          <input class="form-control" required type="text" maxlength="40" placeholder="e.g. ACCT 301" name="classes"/>
+          <div class="invalid-feedback">Please enter some courses you took</div>
+        </div>
+        <div class="mb-3">
+          <label for="skills">Skills</label>
+          <input class="form-control" required type="text" maxlength="40" placeholder="skills" name="skills"/>
+          <div class="invalid-feedback">Please enter some attributes</div>
+        </div>
+        <hr class="mb-4" />
+        <div class="mb-3">
+          <div class="form-check">
+            <input required id ="tos" type="checkbox" class="form-check-input" />
+            <label for="tos" class="form-check-label">
+              <a href="">Accept Terms & Conditions</a>
+            </label>
+            <div class="invalid-feedback">Please accept the terms and conditions</div>
+          </div>
+        </div>
+        <hr class="mb-4" />
+        <div>
+          <input type="submit" class="btn btn-primary btn-lg btn-block" >
+        </div>
+      </form>
+    </div>
     <!-- Footer -->
     <footer class="page-footer font-small">
       <div class="container text-center text-md-left">
