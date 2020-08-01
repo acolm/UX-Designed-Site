@@ -17,7 +17,7 @@
         <h2>temp Page</h2>
       </div>
     </header>
-    <div class="containter">
+    <div class="form-center col-md-4">
       <form class="main-form needs-validation" novalidate="" action="check.html">
         <div class="row">
           <div class="col-md-6 mb-3">
@@ -27,23 +27,25 @@
             </label>
           </div>
           <div class="col-md-3 mb-3">
-            <input type="file">
+            <input type="file"/>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3 mb-3">
+          <div class="col-md-6 mb-3">
             <label for="resume">Resume</label>
           </div>
           <div class="col-md-3 mb-3">
-            <input type="file">
+            <input required type="file" class="form-check-input"/>
+            <div class="invalid-feedback">Please add a resume file</div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 mb-3">
+          <div class="col-md-6 mb-3">
             <lable for="letter">Cover Letter</lable>
           </div>
           <div class="col-md-3 mb-3">
-            <input type="file">
+            <input required type="file" class="form-check-input"/>
+            <div class="invalid-feedback">Please a cover letter</div>
           </div>
         </div>
         <hr class="mb-4" />
