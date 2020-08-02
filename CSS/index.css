@@ -9,5 +9,30 @@ footer{
     margin-top: auto;
     background-color: #c4c4c4;
     padding: 10px;
+}
 
+.card-body{
+    color:#0e0e0f;
+}
+
+.card-body:hover{
+    color:#28a745;
+}
+
+strong{
+    text-decoration: none;
+}
+
+.card{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover{
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sf{
+    width: 100%;
+    margin-bottom: 20px;
 }
