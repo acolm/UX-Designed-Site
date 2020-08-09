@@ -2,26 +2,43 @@
 
 www.sfsufolio.tk
 
-# Please write file name and claim your ownership to that file:
+# Team Members:
 
-Portfolio Basharat Anis - Basharat Anis/ Erik
+Basharat Anis (Team Lead)
+
+Hussain Ashfaque
+
+Momo Sun
+
+Aaron Colmenares
+
+Erik Chen
+
+# Contributions of Team Members:
 
 Index Page - Basharat Anis
 
-Login Page - Momo Sun
+Portfolio - Basharat Anis/ Erik
 
-Signup Page - Momo Sun
+Login Page - Momo Sun / Basharat Anis
 
-Signup Information - Aaron Colmenares
+Signup Page - Momo Sun / Basharat Anis
 
-About - Momo Sun
-
-Customer Support - Momo Sun
-
-Careers - Aaron Colmenares
-
-Profile Page - Hussain Ashfaque
+Signup Information - Aaron Colmenares / Basharat Anis
 
 Search Page - Hussain Ashfaque
 
-Role Selection Page - Basharat Anis / Erik
+Profile Page - Hussain Ashfaque
+
+About - Momo Sun
+
+Careers - Aaron Colmenares
+
+Customer Support - Momo Sun
+
+
+
+
+
+
+
