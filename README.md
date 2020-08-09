@@ -1,6 +1,10 @@
 # SFSUFolio
 
 www.sfsufolio.tk
+# Hire Or Get Hired!
+SFSUFolio helps SFSU students to find jobs or employers to find the best person
+to get a job done. Individuals can find programmers, tutors, artists, etc. This website helps people to find
+the best fit easily with the help of the best usability and clarity in the portfolios.
 
 # Team Members:
 
